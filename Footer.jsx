@@ -1,13 +1,11 @@
-import React from "React";
+import React from "react";
 
-function Footer(){
-    return(
-        <footer>
-            <p1>Copyrrights by @ShapeAi {new Date.getFullyear()}</p1>
-        </footer>
-        
-        
-    );
+function Footer() {
+  return (
+    <footer>
+      <p>Copyrights by @ShapeAi {new Date().getFullYear()}</p>
+    </footer>
+  );
 }
 
 export default Footer;
